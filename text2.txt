@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal id</title>
+</head>
+<body>
+    <table border="7" width="600" height="300"> 
+<tr>
+    
+    <td>s.no</td>
+    <td>name</td>
+    <td>city</td>
+    <td>gender</td>
+    <td>age</td>
+    <td>number</td>
+</tr>
+<tr>
+    <td>1</td>
+    <td>Mani</td>
+    <td>hastinapuram</td>
+    <td>male</td>
+    <td>21</td>
+    <td>7358</td>
+</tr>
+<tr>
+    <td>2</td>
+    <td>Nithu</td>
+    <td>hastinapuram</td>
+    <td>female</td>
+    <td>20</td>
+    <td>8764</td>
+</tr>
+<tr>
+    <td>3</td>
+    <td>Balaji</td>
+    <td>chennai</td>
+    <td>male</td>
+    <td>26</td>
+    <td>9765</td>
+</tr>
+<tr>
+    <td>4</td>
+    <td>Tamil</td>
+    <td>madurai</td>
+    <td>male</td>
+    <td>19</td>
+    <td>6537</td>
+</tr>
+<tr>
+    <td>5</td>
+    <td>Kannan</td>
+    <td>chennai</td>
+    <td>male</td>
+    <td>23</td>
+    <td>7291</td>
+</tr>
+<tr>
+    <td>6</td>
+    <td>Pavi</td>
+    <td>hosur</td>
+    <td>female</td>
+    <td>21</td>
+    <td>6754</td>
+</tr>
+<tr>
+    <td>7</td>
+    <td>Swathi</td>
+    <td>chromepet</td>
+    <td>female</td>
+    <td>20</td>
+    <td>9834</td>
+</tr>
+<tr>
+    <td>8</td>
+    <td>Sabari</td>
+    <td>tambaram</td>
+    <td>male</td>
+    <td>23</td>
+    <td>7659</td>
+</tr>
+    </table>
+</body>
+</html>
