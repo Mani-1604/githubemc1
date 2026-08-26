@@ -1,1 +1,132 @@
-github are mostly use in company for java 
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Marriage Form</h1>
+    <form action="">
+      <label for="fName">Full name</label>
+      <input
+        type="text"
+        name="fullName"
+        placeholder="Enter name"
+        id="fName"
+        minlength="3"
+        maxlength="20"
+        required
+      />
+
+      <br /><br />
+
+      <label for="age">Enter age</label>
+      <input
+        type="number"
+        name="age"
+        placeholder="Enter age"
+        id="age"
+        min="21"
+        max="30"
+        required
+      />
+
+      <br /><br />
+
+      <label for="email">Enter email</label>
+      <input
+        type="email"
+        placeholder="example@gmail.com"
+        name="email"
+        required
+      />
+
+      <br /><br />
+      <label for="contact">Phone Number</label>
+      <input
+        type="tel"
+        name="contact"
+        placeholder="+91 1234567890"
+        id="contact"
+        required
+        pattern="[0-9]{10}"
+      />
+
+      <br /><br />
+      <label for="gender">Select Gender</label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label>
+      <input type="radio" id="others" name="gender" value="others" />
+      <label for="others">Rather not to say</label>
+
+      <br /><br />
+      <label for="skills">Select your skills</label>
+      <input type="checkbox" name="skills" id="cooking" value="cooking" />
+      <label for="cooking">cooking</label>
+      <input type="checkbox" name="skills" id="household" value="household[]" />
+      <label for="household">House Hold</label>
+      <input type="checkbox" name="skills" id="driving" value="driving" />
+      <label for="driving">Driving</label>
+      <input type="checkbox" name="skills" id="dancing" value="dancing" />
+      <label for="dancing">Dancing</label>
+      <input type="checkbox" name="skills" id="singing" value="singing" />
+      <label for="singing">Singing</label>
+
+      <br /><br />
+      <fieldset>
+        <legend>Address</legend>
+        <label for="streetName">Street Name</label>
+        <input
+          type="text"
+          placeholder="streetName"
+          id="streetName"
+          name="streetName"
+          required
+        />
+
+        <label for="city">City Name</label>
+        <input
+          type="text"
+          name="city"
+          placeholder="city name"
+          id="city"
+          required
+        />
+        <br /><br />
+
+        <label for="pinCode">Pin Code</label>
+        <input
+          type="text"
+          name="pinCode"
+          id="pinCode"
+          pattern="[0-9]{6}"
+          required
+        />
+
+        <label for="state">Select State</label>
+        <select name="state" id="state">
+          <option value="Select">Select</option>
+          <option value="TamilNadu">TamilNadu</option>
+          <option value="Odisha">Odisha</option>
+          <option value="Kerala">Kerala</option>
+          <option value="Maharashtra">Maharashtra</option>
+        </select>
+      </fieldset>
+
+      <label for="profession">Profession</label>
+      <input
+        type="text"
+        name="profession"
+        id="profession"
+        placeholder="Enter Profession"
+        required
+      />
+      <br /><br />
+      <input type="submit" /> <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
